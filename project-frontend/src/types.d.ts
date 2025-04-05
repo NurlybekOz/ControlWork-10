@@ -7,7 +7,7 @@ export interface IPost {
     id: string;
     title: string;
     content: string;
-    image: string;
+    image: file | null;
     datetime: string;
 }
 export interface IComment {
